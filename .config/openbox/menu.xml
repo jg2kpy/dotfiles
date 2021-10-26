@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label=" Terminal">
+    <action name="Execute">
+      <command>bash -c "LIBGL_ALWAYS_SOFTWARE=1 alacritty"</command>
+    </action>
+  </item>
+
+  <item label=" File Manager">
+    <action name="Execute">
+      <command>pcmanfm-qt</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+  <item label=" Web Browser">
+    <action name="Execute">
+      <command>firefox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Firefox</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+
+  <item label="﬏ Code">
+    <action name="Execute">
+      <command>code</command>
+    </action>
+  </item>
+
+  <item label=" Wallpaper">
+    <action name="Execute">
+      <command>nitrogen</command>
+    </action>
+  </item>
+
+  <menu id="system-menu" label=" System">
+    <item label=" Shut Down">
+    <action name="Execute">
+      <command>shutdown now</command>
+    </action>
+    </item>
+
+    <item label=" Reboot">
+    <action name="Execute">
+      <command>reboot</command>
+    </action>
+    </item>
+  </menu>
+
+</menu>
+
+</openbox_menu>
