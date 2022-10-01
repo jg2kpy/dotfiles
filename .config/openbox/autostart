@@ -16,7 +16,7 @@
 #
 #xfce-mcs-manager &
 
-xrandr -s 1360x768 &
+xrandr -s 1600x900 &
 
 /home/jg2kpy/.config/polybar/launch.sh &
 

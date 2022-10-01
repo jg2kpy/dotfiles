@@ -1,4 +1,5 @@
 window:
+  opacity: 0.9
   dimensions:
     colummns: 100
     lines: 85
